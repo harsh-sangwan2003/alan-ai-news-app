@@ -2,7 +2,7 @@ import React from 'react'
 import { Card, CardMedia, Typography, CardActions, CardActionArea, Button, CardContent } from '@mui/material'
 import './styles.css'
 
-const NewsCard = ({ article: { description, publishedAt, source, title, url, urlToImage }, i }) => {
+const NewsCard = ({ article: { description, publishedAt, source, title, url, urlToImage }, i,activeArticle }) => {
     return (
         <Card className='card'>
             <CardActionArea href={url} target='_blank'>
