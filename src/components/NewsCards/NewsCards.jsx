@@ -12,7 +12,7 @@ const infoCards = [
 
 const NewsCards = ({ articles }) => {
 
-    if (!articles || articles.length == 0) {
+    if (!articles || articles.length === 0) {
         return (
             <Grow in>
                 <Grid className='container' container alignItems="stretch" spacing={3}>

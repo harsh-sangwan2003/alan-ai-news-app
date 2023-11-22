@@ -1,9 +1,11 @@
 import React from 'react'
 import { Card, CardActions, CardActionArea, CardContent, CardMedia, Button, Typography } from '@mui/material'
 import './styles.css'
-const NewsCard = ({ article: { description, publishedAt, source, title, url, urlToImage }, i }) => {
+import classNames from 'classnames'
+
+const NewsCard = ({ article: { description, publishedAt, source, title, url, urlToImage }, i, activeArticle }) => {
     return (
-        <Card className='card'>
+        <Card className={classNames("card", activeArticle === i ? "activeCard" : null)}>
 
             <CardActionArea href={url} target='_blank'>
                 <CardMedia className='media' image={urlToImage || "https://www.industry.gov.au/sites/default/files/August%202018/image/news-placeholder-738.png"} />

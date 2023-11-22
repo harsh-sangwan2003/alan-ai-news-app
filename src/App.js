@@ -16,8 +16,10 @@ const App = () => {
         alanBtn({
             key: alanKey,
             onCommand: ({ command, articles }) => {
-                if (command === 'newHeadlines')
-                    setNewsArticles(articles);
+                if (command === 'newHeadlines') {
+                    setNewsArticles(articles)
+                }
+
             }
         })
     }, [])
@@ -25,9 +27,9 @@ const App = () => {
     return (
         <div>
             <div className='logoContainer'>
-                <img src={image} className='alanLogo' alt="alan logo"/>
+                <img src={image} className='alanLogo' alt="alan logo" />
             </div>
-            <NewsCards articles={newsArticles}/>
+            <NewsCards articles={newsArticles} />
         </div>
     )
 }
