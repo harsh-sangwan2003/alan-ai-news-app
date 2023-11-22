@@ -3,6 +3,8 @@ import alanBtn from '@alan-ai/alan-sdk-web'
 import { useEffect } from 'react'
 import { useState } from 'react'
 import NewsCards from './components/NewsCards/NewsCards'
+import image from './image.jpg'
+import './styles.css'
 
 const alanKey = "abc1b1493c9f5bb0ef3d3248c4e73ceb2e956eca572e1d8b807a3e2338fdd0dc/stage"
 
@@ -22,7 +24,9 @@ const App = () => {
 
     return (
         <div>
-            <h1>Alan AI News App</h1>
+            <div className='logoContainer'>
+                <img src={image} className='alanLogo' alt="alan logo"/>
+            </div>
             <NewsCards articles={newsArticles}/>
         </div>
     )
