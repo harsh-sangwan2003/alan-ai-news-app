@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@alan-ai/alan-sdk-web": "github:alan-ai/alan-sdk-web",
+    "@alan-ai/alan-button": "^1.9.27",
+    "@alan-ai/alan-sdk-web": "^1.8.53",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.14.18",
