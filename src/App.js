@@ -1,5 +1,5 @@
 import React from 'react'
-import {al} from '@alan-ai/alan-sdk-web'
+import alanBtn from '@alan-ai/alan-sdk-web'
 import { useEffect } from 'react'
 import { useState } from 'react'
 import NewsCards from './components/NewsCards/NewsCards'
