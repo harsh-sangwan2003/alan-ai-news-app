@@ -51,10 +51,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Usage
 
-This is my personal portfolio website.
+Embark on an immersive experience with our cutting-edge project, merging Alan AI's intelligent voice capabilities with the versatility of React.js and CSS finesse. Leveraging the power of the new SAPI, we've crafted a seamless interface that redefines interaction paradigms.
 
 Click on
-
 ```js
 npm start
 ``` 
