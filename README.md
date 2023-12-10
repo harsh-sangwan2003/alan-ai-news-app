@@ -47,7 +47,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-#Usage
+## Usage
 
 Embark on an immersive experience with our cutting-edge project, merging Alan AI's intelligent voice capabilities with the versatility of React.js and CSS finesse. Leveraging the power of the new SAPI, we've crafted a seamless interface that redefines interaction paradigms.
 
